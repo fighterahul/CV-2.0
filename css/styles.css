@@ -1,0 +1,146 @@
+body {
+  margin: 0%;
+  text-align: center;
+  font-family: "Merriweather", Arial, Helvetica, sans-serif;
+}
+
+.middle-container {
+  padding-top: 40px;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 340px;
+  left: 280px;
+  background-color: #eaf6f6;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 40px;
+  left: 920px;
+  background-color: #eaf6f6;
+}
+
+h1 {
+  font-weight: 600;
+  line-height: 2;
+  color: #66bfbf;
+  margin: 50px, auto, 0, auto;
+  font-size: 562.5%; /*100% IS 16 PIXELS THEREFORE FOR 90 PIXEL YOU NEED 90/16 =562.5%   1em=16px=100%* 90px= 5.625em*/
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-bottom: 0%;
+  margin-right: 0%;
+  font-family: Sacramento;
+}
+
+#Layer_1 {
+  width: 300px;
+  height: 300px;
+}
+
+h2 {
+  font-weight: normal;
+  color: #66bfbf;
+  font-size: 2.5rem;
+}
+
+a,
+h3 {
+  color: #11999e;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+.skill_detail {
+  text-align: left;
+  margin: 20px auto 0 10px;
+}
+
+p.skill_detail {
+  line-height: 2;
+}
+
+.code-img {
+  margin-right: 30px;
+  float: left;
+  width: 25%;
+  height: 25%;
+}
+.trade-img {
+  margin-left: 30px;
+
+  float: right;
+  width: 25%;
+  height: 25%;
+}
+.pub-img {
+  margin-right: 30px;
+
+  float: left;
+  width: 25%;
+  height: 25%;
+}
+.button {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.bottom-container {
+  background: #66bfbf;
+  padding: 40px;
+}
+
+.contact-box {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.head {
+  margin: 60px auto 60px auto;
+  border-style: dotted none none none;
+
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+
+.yt {
+  padding-right: 50px;
+}
+.tweet {
+  padding-right: 50px;
+}
+.linked {
+  padding-right: 50px;
+}
