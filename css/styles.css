@@ -4,11 +4,21 @@ body {
   font-family: "Merriweather", Arial, Helvetica, sans-serif;
 }
 
+.mountain {
+  width: 100%;
+
+  height: auto;
+  position: relative;
+  bottom: 0;
+  box-sizing: border-box;
+}
 .middle-container {
   padding-top: 40px;
 }
 
 .top-container {
+  max-width: 100%;
+  width: 100%;
   background-color: #eaf6f6;
   position: relative;
   padding-top: 100px;
@@ -17,14 +27,14 @@ body {
 .bottom-cloud {
   position: absolute;
   top: 55%;
-  left: 18%;
+  left: 14%;
   background-color: #eaf6f6;
 }
 
 .top-cloud {
   position: absolute;
-  top: 10%;
-  right: 18%;
+  top: 5%;
+  right: 14%;
   background-color: #eaf6f6;
 }
 
@@ -58,7 +68,7 @@ h3 {
 }
 
 .skill-row {
-  width: 75%;
+  width: 72%;
   margin: 100px auto 100px auto;
 }
 .skill_detail {
@@ -143,7 +153,6 @@ p.skill_detail {
   border-width: 5px;
   width: 5%;
 }
-
 .yt {
   padding-right: 50px;
 }
