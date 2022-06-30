@@ -5,17 +5,31 @@ body {
 }
 
 .mountain {
-  width: 100%;
+  max-width: 100%;
 
   height: auto;
   position: relative;
   bottom: 0;
   box-sizing: border-box;
 }
-.middle-container {
-  padding-top: 40px;
+@media (max-width: 1024px) {
+  .mountain-pic {
+    padding-top: 10px;
+    position: static;
+    max-width: 100%;
+  }
 }
+.middle-container {
+  padding: 100px 0 0 0;
+}
+.p {
+  line-height: 2px;
+}
+.intro {
+  width: 40%;
 
+  margin: auto;
+}
 .top-container {
   max-width: 100%;
   width: 100%;
@@ -70,6 +84,10 @@ h3 {
 .skill-row {
   width: 72%;
   margin: 100px auto 100px auto;
+}
+
+#crypto {
+  text-align: right;
 }
 .skill_detail {
   text-align: left;
@@ -165,4 +183,8 @@ p.skill_detail {
 
 .cloud {
   width: fit-content;
+}
+.message {
+  width: 40%;
+  margin: auto;
 }
